@@ -25,7 +25,7 @@ const NavBar = () => {
     },
   ];
   return (
-    <nav className=" xl:flex xl:flex-row xl:justify-evenly xl:p-5 xl:items-center">
+    <nav className=" xl:flex xl:flex-row xl:justify-evenly xl:p-5 xl:items-center xl:bg-slate-100 xl:fixed xl:w-full xl:z-10">
       <h2 className=" xl:text-xl xl:text-slate-950 xl:font-bold xl:cursor-pointer">
         Yaarana Cafa&Restaurant.
       </h2>

@@ -1,12 +1,15 @@
 import React, { useState } from "react";
 import NavBar from "./components/NavBar/NavBar";
+import About from "./components/About/About";
+import Services from "./components/Services/Services";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <React.Fragment>
       <NavBar />
+      <About />
+      <Services />
     </React.Fragment>
   );
 }
