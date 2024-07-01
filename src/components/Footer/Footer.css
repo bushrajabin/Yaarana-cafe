@@ -1,0 +1,11 @@
+.footer-main-container {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}

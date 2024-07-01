@@ -8,7 +8,7 @@ const NavBar = () => {
     },
     {
       id: 2,
-      title: "ABOUT",
+      title: "RESERVATION",
     },
     {
       id: 3,
