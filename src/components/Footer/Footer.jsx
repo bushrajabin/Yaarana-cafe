@@ -20,7 +20,7 @@ function Footer() {
 
                 </div>
                 <div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3578.1276560400634!2d87.8211818!3d26.25752!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e57300602558bd%3A0x438fc2ffbd40d9f9!2sYaarana%20Restaurant!5e0!3m2!1sen!2sin!4v1719819178079!5m2!1sen!2sin" className=' w-96 p-2 xl:w-96 h-48' ></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3578.1276560400634!2d87.8211818!3d26.25752!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e57300602558bd%3A0x438fc2ffbd40d9f9!2sYaarana%20Restaurant!5e0!3m2!1sen!2sin!4v1719819178079!5m2!1sen!2sin" className=' w-96 p-4 xl:w-96 h-48' ></iframe>
                 </div>
             </div>
 
