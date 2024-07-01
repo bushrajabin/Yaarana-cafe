@@ -6,7 +6,7 @@ function Footer() {
     return (
 
         <React.Fragment>
-            <div className='xl:flex xl:flex-row xl:justify-around xl:items-center'>
+            <div className=' bg-gray-800 text-white xl:flex xl:flex-row xl:justify-around xl:items-center'>
                 <div className=' flex flex-row items-center text-center text-sm font-mono p-3 xl:flex xl:flex-row xl:items-center xl:text-center xl:font-mono xl:gap-60'>
 
                     <div className="">
@@ -24,7 +24,7 @@ function Footer() {
                 </div>
             </div>
 
-            <div className="font-serif text-center p-3">
+            <div className=" bg-gray-800 text-white font-serif text-center p-3">
                 <h3>Design By: @Bushra jabin</h3>
             </div>
         </React.Fragment>
