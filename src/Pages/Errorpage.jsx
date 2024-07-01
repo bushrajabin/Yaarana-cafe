@@ -2,7 +2,7 @@ import React from 'react'
 
 function Errorpage() {
     return (
-        <div>Errorpage</div>
+        <div>OOOPPPS</div>
     )
 }
 
