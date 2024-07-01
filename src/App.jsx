@@ -9,12 +9,12 @@ function App() {
 
   return (
     <React.Fragment>
-      {/* <NavBar /> */}
+      <NavBar />
       <About />
       <Services />
       {/* <Reviews /> */}
       {/* <Table/> */}
-      {/* <Footer/> */}
+      <Footer/>
 
     </React.Fragment>
   );
