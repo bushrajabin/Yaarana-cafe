@@ -5,7 +5,7 @@ const NavBar = () => {
   const navigate = useNavigate();
   const links = [
     { id: 1, title: "HOME", route: "/" },
-    { id: 2, title: "RESERVATION", route: "/reservation" },
+    { id: 2, title: "RESERVATION", route: "/table" },
     { id: 3, title: "MENU", route: "/menu" },
     { id: 4, title: "BLOG", route: "/blog" },
     { id: 5, title: "CONTACT", route: "/contact" },

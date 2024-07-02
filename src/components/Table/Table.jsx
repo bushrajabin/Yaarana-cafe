@@ -1,8 +1,5 @@
 import React from 'react'
 import './Tables.css'
-
-
-
 function Table() {
   return (
     <div className='table_container'>
