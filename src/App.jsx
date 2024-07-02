@@ -1,23 +1,33 @@
-import React, { useState } from "react";
+// App.js
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar";
 import About from "./components/About/About";
-import Services from "./components/Services/Services";
-import Reviews from "./components/review/Reviews";
 import Table from "./components/Table/Table";
-import Footer from "./components/Footer/Footer";
-function App() {
+import Home from "./Pages/Home";
+import Services from './components/Services/Services'
+import Footer from './components/Footer/Footer'
 
+
+const App = () => {
   return (
-    <React.Fragment>
-      <NavBar />
-      <About />
-      <Services />
-      {/* <Reviews /> */}
-      <Table/>
-      <Footer/>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
 
-    </React.Fragment>
+        <Route path="/reservation" element={
+          <>
+            <NavBar />
+            <Table />
+            <Footer/>
+
+          </>
+
+        } />
+
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;
