@@ -15,7 +15,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
 
-        <Route path="/table" element={
+<Route path="/table" element={<Table/>}/>
+        {/* <Route path="/table" element={
           <>
             <NavBar />
             <Table />
@@ -23,7 +24,7 @@ const App = () => {
 
           </>
 
-        } />
+        } /> */}
 
       </Routes>
     </Router>
