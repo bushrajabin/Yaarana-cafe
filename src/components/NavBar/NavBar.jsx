@@ -1,6 +1,5 @@
 import React from "react";
-// import { useNavigate } from "react-router-dom";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const NavBar = () => {
   // const navigate = useNavigate();
@@ -13,7 +12,7 @@ const NavBar = () => {
   ];
 
   const onLinkNavigate = (route) => {
-    navigate(route);
+    navigate('/route');
   };
 
   const backHome = () => {
