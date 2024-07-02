@@ -95,3 +95,23 @@
 .button:hover{
     background-color: cadetblue;
 }
+
+@media (max-width:500px){
+   
+    .table-top-part>h1{
+        font-size: 30px;
+    }
+
+    .reservations>h2{
+        font-size: 29px;
+    }
+
+    .reservations>p{
+        font-size: 13px;
+    }
+
+    .input-fileds{
+        width: 100%;
+        padding: 0px;
+    }
+}

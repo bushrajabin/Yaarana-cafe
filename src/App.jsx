@@ -13,7 +13,7 @@ function App() {
       <About />
       <Services />
       {/* <Reviews /> */}
-      {/* <Table/> */}
+      <Table/>
       <Footer/>
 
     </React.Fragment>
