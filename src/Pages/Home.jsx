@@ -6,13 +6,13 @@ import Footer from '../components/Footer/Footer'
 
 function Home() {
   return (
-    <div>
-        
-    <NavBar/>
-    <About/>
-    <Services/>
-    <Footer/>
-    </div>
+    <>
+      <NavBar />
+      <About />
+      <Services />
+      <Footer />
+    </>
+
   )
 }
 
