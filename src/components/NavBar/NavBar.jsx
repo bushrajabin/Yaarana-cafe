@@ -1,14 +1,15 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const links = [
     { id: 1, title: "HOME", route: "/" },
     { id: 2, title: "RESERVATION", route: "/table" },
-    { id: 3, title: "MENU", route: "/menu" },
-    { id: 4, title: "BLOG", route: "/blog" },
-    { id: 5, title: "CONTACT", route: "/contact" },
+    { id: 3, title: "MENU", route: "/*" },
+    { id: 4, title: "BLOG", route: "/*" },
+    { id: 5, title: "CONTACT", route: "/*", },
   ];
 
   const onLinkNavigate = (route) => {
@@ -47,3 +48,6 @@ const NavBar = () => {
 };
 
 export default NavBar;
+
+
+

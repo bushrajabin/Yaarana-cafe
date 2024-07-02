@@ -1,33 +1,53 @@
 // App.js
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { createBrowserRouter,BrowserRouter as Router, Routes, Route, RouterProvider } from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar";
 import About from "./components/About/About";
 import Table from "./components/Table/Table";
 import Home from "./Pages/Home";
 import Services from './components/Services/Services'
 import Footer from './components/Footer/Footer'
+import Errorpage from './Pages/Errorpage'
 
 
 const App = () => {
+
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: (
+        <>
+          <Home />
+        </>
+      ),
+    },
+    {
+      path: "*",
+      element: (
+        <>
+          <NavBar />
+          <Errorpage />
+        </>
+      ),
+    },
+    {
+      path: "/table",
+      element: (
+        <>
+          <NavBar />
+          <Table />
+
+
+        </>
+      ),
+    },
+
+  ]);
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-
-<Route path="/table" element={<Table/>}/>
-        {/* <Route path="/table" element={
-          <>
-            <NavBar />
-            <Table />
-            <Footer />
-
-          </>
-
-        } /> */}
-
-      </Routes>
-    </Router>
+    <>
+      <NavBar />
+      <RouterProvider router={router} />
+    </>
   );
 };
 

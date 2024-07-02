@@ -2,7 +2,11 @@ import React from 'react'
 
 function Errorpage() {
     return (
-        <div>OOOPPPS</div>
+        <>
+          <div className='text-center'>OOOPPPS</div>
+          <h1>hooooooooo</h1>
+        </>
+      
     )
 }
 
