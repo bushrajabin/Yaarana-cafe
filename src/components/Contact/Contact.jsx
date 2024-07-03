@@ -8,7 +8,12 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
 const Contact = () => {
   return (
-    <div className=' bg-slate-300 m-2 w-auto text-center xl:bg-slate-200 xl:fle xl:flex-col xl:text-center xl:m-24  xl:p-10 rounded-xl '>
+
+    <div className=' mt-10 xl:m-40 '>
+
+
+
+    <div className=' bg-slate-300 m-2 w-auto text-center xl:bg-slate-200 xl:fle xl:flex-col xl:text-center  xl:p-10 rounded-xl '>
       <div className='xl:p-10 p-4 '>
         <h1 className=' underline xl:underline font-serif xl:text-2xl'> CONTACT-US</h1>
         <h2 className=' text-xl p-1 font-mono xl:text-xl xl:p-3'>Yaarana Rooftop | Cafe & Restaurant</h2>
@@ -29,6 +34,7 @@ const Contact = () => {
       </div>
 
 
+    </div>
     </div>
 
   )
