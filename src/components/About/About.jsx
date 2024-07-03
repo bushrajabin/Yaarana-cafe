@@ -5,7 +5,7 @@ import { images } from '../../CommonData/Common'
 function About() {
     return (
         <div>
-            <div className=' w-full   xl:bg-zinc-300 xl:text-center xl:flex xl:flex-row xl:pt-44 xl:static md:bg-black'>
+            <div className=' w-full pt-20   xl:bg-zinc-300 xl:text-center xl:flex xl:flex-row xl:pt-44 xl:static md:bg-black'>
                 <img src="Images/image-1.png" alt="" className=' hidden xl:block xl:h-80 xl:object-cover xl:absolute xl:-left-10 xl:top-2' />
                 <div className=' text-center xl:flex xl:flex-col xl:justify-center xl:items-center'>
                     <div className='xl:text-lg xl:font-mono xl:tracking-widest xl:p-2'>
@@ -22,7 +22,6 @@ function About() {
 
                     <div className=' xl:w-40  xl:m-4 xl:items-center xl:mt-10'>
                         <button className=" p-3 w-26 m-3 border-2 border-black hover:bg-black hover:text-white  xl:border-2 xl:border-black xl:p-3 xl:m-1 xl:w-40 xl:hover:transition-all xl:duration-500 xl:hover:bg-black xl:hover:text-cyan-50">BOOK A TABLE</button>
-                        <hr />
                     </div>
 
                 </div>
