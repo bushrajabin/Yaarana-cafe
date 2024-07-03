@@ -8,7 +8,7 @@ const Services = () => {
                 services.map((data, index, arr)=>{
                     const { image, title1, title2 } = data;
                     return (
-                        <div className=' flex flex-col items-center shadow-inner m-3 p-2 text-center xl:m-6 xl:text-center  xl:items-center xl:flex xl:flex-col xl:w-80 '>
+                        <div className=' flex flex-col items-center shadow-inner m-3 p-2 text-center  xl:m-6 xl:text-center  xl:items-center xl:flex xl:flex-col xl:w-80 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-100 duration-300 xl:transition xl:ease-in-out xl:delay-150  xl:hover:-translate-y-1 xl:hover:scale-110  xl:duration-300 '>
                             <img src={image} alt="" className=' bg-zinc-900 p-2 w-16 h-16 object-cover rounded-full xl:w-24 xl:h-24 xl:object-contain xl:bg-zinc-900 xl:p-4 xl:rounded-full xl:m-2 ' />
                             <h2 className=' font-serif xl:text-lg xl:font-serif xl:p-2'>{title1}</h2>
                             <h3 className=' font-mono xl:font-semibold xl:text-sm xl:p-2'>{title2}</h3>

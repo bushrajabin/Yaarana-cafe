@@ -5,8 +5,8 @@ import { images } from '../../CommonData/Common'
 function About() {
     return (
         <div>
-            <div className=' w-full mt-20  xl:text-center xl:flex xl:flex-row xl:pt-44 xl:static md:bg-black'>
-                <img src="Images/image-1.png" alt="" className=' hidden xl:block xl:h-80 xl:object-cover xl:absolute xl:-left-10 xl:top-2' />
+            <div className=' w-full mt-20  xl:text-center xl:flex xl:flex-row xl:pt-16 xl:static'>
+                <img src="Images/image-1.png" alt="" className=' hidden xl:block xl:h-80 xl:object-cover xl:absolute xl:-left-20 xl:top-2' />
                 <div className=' text-center xl:flex xl:flex-col xl:justify-center xl:items-center'>
                     <div className='xl:text-lg xl:font-mono xl:tracking-widest xl:p-2'>
                         <h4 className="font-serif pt-7 underline">ABOUT RESTAURANT</h4>
@@ -37,7 +37,6 @@ function About() {
                                 <img src={image} alt=""  />
                                 <div className='middle'>
                                    <img src="./Images/insta-image.png" alt="" />
-
                                 </div>
                             </div>
                         )
