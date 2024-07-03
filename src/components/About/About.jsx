@@ -5,7 +5,7 @@ import { images } from '../../CommonData/Common'
 function About() {
     return (
         <div>
-            <div className=' w-full pt-20   xl:bg-zinc-300 xl:text-center xl:flex xl:flex-row xl:pt-44 xl:static md:bg-black'>
+            <div className=' w-full mt-20  xl:text-center xl:flex xl:flex-row xl:pt-44 xl:static md:bg-black'>
                 <img src="Images/image-1.png" alt="" className=' hidden xl:block xl:h-80 xl:object-cover xl:absolute xl:-left-10 xl:top-2' />
                 <div className=' text-center xl:flex xl:flex-col xl:justify-center xl:items-center'>
                     <div className='xl:text-lg xl:font-mono xl:tracking-widest xl:p-2'>
