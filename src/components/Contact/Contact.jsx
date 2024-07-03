@@ -9,7 +9,7 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 const Contact = () => {
   return (
 
-    <div className=' mt-10 xl:m-40 '>
+    <div className=' mt-32 xl:m-40 '>
 
 
 

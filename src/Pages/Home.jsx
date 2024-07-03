@@ -8,8 +8,8 @@ import Contact from '../components/Contact/Contact'
 function Home() {
   return (
     <>
-      {/* <NavBar />
-      <About />
+      <NavBar />s
+      {/* <About />
       <Services />
       <Footer /> */}
       <Contact/>
