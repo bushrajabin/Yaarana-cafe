@@ -4,7 +4,6 @@ import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 export const SocialIcons = [
 
   {
-
     link:"https://www.youtube.com/@CloudChaserss/featured"
   },
   {
