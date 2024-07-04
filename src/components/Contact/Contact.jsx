@@ -20,14 +20,12 @@ const Contact = () => {
         </div>
 
         <div className=" xl:p-3">
-          <h3 className="xl:text-2xl font-mono justify-center">
-            {" "}
-            <FontAwesomeIcon icon={FaPhone} className="text-sm " />{" "}
-            9100000000000
+          <h3 className="xl:text-2xl font-mono justify-center flex flex-row items-center">
+            <FaPhone className="text-sm" />  9100000000000
           </h3>
-          <p className="font-sans :xl:text-xl xl:font-mono p-2">
-            <FontAwesomeIcon icon={FaLocationDot} /> 7R5F+3J2, Kishanganj -
-            Bahadurganj Rd, Bahadurganj, Bihar 855115
+          <p className="font-sans :xl:text-xl xl:font-mono p-2 flex flex-row justify-center items-center">
+            <FaLocationDot /> 7R5F+3J2, Kishanganj - Bahadurganj Rd,
+            Bahadurganj, Bihar 855115
           </p>
         </div>
 
@@ -40,10 +38,10 @@ const Contact = () => {
         <div className=" flex flex-row justify-center p-3 xl:m-3">
           <a href="https://www.instagram.com/yaarana.cafe/" target="_blank">
             {" "}
-            <FontAwesomeIcon icon={FaInstagram} className="text-3xl p-2" />
+            <FaInstagram className="text-2xl m-2" />
           </a>
           <a href="https://www.instagram.com/yaarana.cafe/" target="_blank">
-            <FontAwesomeIcon icon={FaFacebook} className="text-3xl p-2" />
+            <FaFacebook className="text-2xl m-2" />
           </a>
         </div>
       </div>
