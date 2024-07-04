@@ -1,10 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faFacebook } from "@fortawesome/free-brands-svg-icons";
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
-import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { FaInstagram } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaPhone } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
 
 const Contact = () => {
   return (
@@ -23,11 +22,11 @@ const Contact = () => {
         <div className=" xl:p-3">
           <h3 className="xl:text-2xl font-mono justify-center">
             {" "}
-            <FontAwesomeIcon icon={faPhone} className="text-sm " />{" "}
+            <FontAwesomeIcon icon={FaPhone} className="text-sm " />{" "}
             9100000000000
           </h3>
           <p className="font-sans :xl:text-xl xl:font-mono p-2">
-            <FontAwesomeIcon icon={faLocationDot} /> 7R5F+3J2, Kishanganj -
+            <FontAwesomeIcon icon={FaLocationDot} /> 7R5F+3J2, Kishanganj -
             Bahadurganj Rd, Bahadurganj, Bihar 855115
           </p>
         </div>
@@ -41,10 +40,10 @@ const Contact = () => {
         <div className=" flex flex-row justify-center p-3 xl:m-3">
           <a href="https://www.instagram.com/yaarana.cafe/" target="_blank">
             {" "}
-            <FontAwesomeIcon icon={faInstagram} className="text-3xl p-2" />
+            <FontAwesomeIcon icon={FaInstagram} className="text-3xl p-2" />
           </a>
           <a href="https://www.instagram.com/yaarana.cafe/" target="_blank">
-            <FontAwesomeIcon icon={faFacebook} className="text-3xl p-2" />
+            <FontAwesomeIcon icon={FaFacebook} className="text-3xl p-2" />
           </a>
         </div>
       </div>
